@@ -34,8 +34,5 @@ ehthumbs.db
 # Telemetry training logs
 *.csv
 
-# Neural network weights/scalers (Uncomment these if you want to keep them out of git)
-# Note: if they are already tracked, run: git rm --cached <file_name>
-# torcs_ai_model.pkl
-# input_scaler.pkl
-# output_scaler.pkl
+# Neural network weights/scalers
+*.pkl
