@@ -1,0 +1,23 @@
+# Python compiler outputs and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# Large model binaries and scalers (Optional, but usually ignored if very large)
+# Keep them uncommented if you want to commit them:
+# torcs_ai_model.pkl
+# input_scaler.pkl
+# output_scaler.pkl
+
+# Data files (CSVs containing telemetry data for training)
+*.csv
