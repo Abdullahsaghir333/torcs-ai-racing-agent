@@ -1,23 +1,41 @@
-# Python compiler outputs and cache
+# --- Python Compiler & Cache ---
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Environments
+# --- Virtual Environments ---
 .venv/
 venv/
 ENV/
 env/
+bin/
+lib/
+include/
 
-# IDE / Editor configuration
+# --- IDE & Editors ---
 .vscode/
 .idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
 
-# Large model binaries and scalers (Optional, but usually ignored if very large)
-# Keep them uncommented if you want to commit them:
+# --- System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- Project Telemetry & Models ---
+# Telemetry training logs
+*.csv
+
+# Neural network weights/scalers (Uncomment these if you want to keep them out of git)
+# Note: if they are already tracked, run: git rm --cached <file_name>
 # torcs_ai_model.pkl
 # input_scaler.pkl
 # output_scaler.pkl
-
-# Data files (CSVs containing telemetry data for training)
-*.csv
